@@ -1,0 +1,118 @@
+
+body, ul, li, h1, h2, h3, p, form {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: teal;
+    color: blueviolet;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+footer {font-style: italic; color: black}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: skyblue;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+}
+
+.container.search {
+
+max-width: 800px;
+    margin: 0 auto;
+    background-color: skyblue;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+}
+
+.image-style {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+
+}
+
+ @media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+ .experience {
+    padding: 20px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    border-left: 3px solid #3498db; 
+    padding-left: 10px;
+}
+
+.experience-item h3, p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.image-container {
+    width: 300px;
+    height: 200px;
+    background-image: url("image/resume.jpeg");
+    background-size: cover;
+    background-position: center; 
+    border: 2px solid #ccc;
+}
